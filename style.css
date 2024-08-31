@@ -1,0 +1,55 @@
+.container {
+    padding-top: 50px;
+    background-color: azure;
+    height: 900px;
+    position: relative;
+}
+.inner-view {
+    background-color: white;
+    border: 3px solid black;
+    width: 400px;
+    height: 350px;
+    margin-left: 150px;
+    position: absolute;
+    
+}
+.product-info {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.price {
+    padding-left: 45px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.outer-view {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid black;
+    width: 410px;
+    height: 400px;
+    margin-left: 350px;
+    padding-left: 10px;
+    padding-top: 3px;
+    gap: 15px;
+    position:absolute;
+    margin-top: 200px;
+    box-shadow: 10px 10px lightblue;
+    border-radius: 15px;
+}
+.card {
+    margin-left: 340px;
+    width: 50px;
+    height: 50px;
+}
+.input-group {
+    font-size: x-large;
+    font-weight: bold;
+}
+.button {
+    text-align: center;
+}
